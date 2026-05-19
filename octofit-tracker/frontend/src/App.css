@@ -1,0 +1,136 @@
+.App {
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, rgba(13, 202, 240, 0.16), transparent 26%),
+    radial-gradient(circle at bottom right, rgba(102, 16, 242, 0.16), transparent 28%),
+    linear-gradient(180deg, #0b2c5a 0%, #071627 100%);
+  color: #e9edf7;
+}
+
+body {
+  background: transparent;
+  color: #f1f5f9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+}
+
+.app-hero {
+  background: linear-gradient(135deg, rgba(13, 202, 240, 0.85), rgba(102, 16, 242, 0.9));
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.app-logo,
+.nav-logo {
+  width: 50px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
+
+.app-nav {
+  background: rgba(15, 23, 42, 0.95);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navbar-brand,
+.nav-link {
+  color: #c8d6ff !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.card-header {
+  background: rgba(13, 110, 253, 0.9);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-title,
+.card-text {
+  color: #f8f9fa;
+}
+
+.table {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.table thead th {
+  background: rgba(13, 110, 253, 0.95);
+  color: #ffffff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(13, 110, 253, 0.12);
+}
+
+.btn-primary {
+  background-image: linear-gradient(135deg, #0dcaf0, #6610f2);
+  border: none;
+}
+
+.btn-light {
+  color: #071627;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.btn-outline-light {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.btn-outline-light:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.alert {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.06);
+  color: #e9edf7;
+}
+
+.link-light,
+a {
+  color: #b6d4ff;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.form-control,
+.form-label {
+  color: #f8f9fa;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(13, 110, 253, 0.9);
+  box-shadow: none;
+}
+
+pre {
+  background: rgba(0, 0, 0, 0.16);
+  color: #eef2ff;
+}
